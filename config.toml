@@ -41,8 +41,8 @@ disableLanguages        = [""]
     favicon             = false
     svg                 = true
     faviconVersion      = "1"
-    msColor             = "#ffffff" # Copy from the https://realfavicongenerator.net
-    iOSColor            = "#ffffff" # Copy from the https://realfavicongenerator.net
+    msColor             = "#CBE6ED" # Copy from the https://realfavicongenerator.net
+    iOSColor            = "#CBE6ED" # Copy from the https://realfavicongenerator.net
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
@@ -51,7 +51,7 @@ disableLanguages        = [""]
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
-    languageMenu        = true
+    languageMenu        = false
 
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
@@ -125,14 +125,14 @@ disableLanguages        = [""]
     identifier        = "blog"
     url               = "/blog/"
     pre               = "<i class='far fa-newspaper'></i>"
-    weight            = 3
+    weight            = 4
 
   [[menu.main]]
-    name              = "Categories"
-    identifier        = "categories"
-    url               = "/categories/"
+    name              = "Research"
+    identifier        = "research"
+    url               = "/research/"
     pre               = "<i class='fas fa-sitemap'></i>"
-    weight            = 5
+    weight            = 3
 
   [[menu.main]]
     name              = "Contact"

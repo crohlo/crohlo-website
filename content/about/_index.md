@@ -1,10 +1,9 @@
 ---
-date: "2014-04-09"
-title: About Hugo
+date: "2020-01-24"
+title: About Me
 ---
 
-Hugo is a static site engine written in Go.
-
+I am a current Ph.D. candidate in the Quantitative Methods Program at the University of Minnesota- Twin Cities. My advisor is Professor Nidhi Kohli. 
 
 It makes use of a variety of open source projects including:
 
