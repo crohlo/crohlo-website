@@ -238,46 +238,6 @@
   </url>
   
   <url>
-    <loc>/pl/categories/jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/jekyll/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/categories/jekyll/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="/pl/categories/jekyll/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pl/blog/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/migrate-from-jekyll/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/blog/migrate-from-jekyll/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="/pl/blog/migrate-from-jekyll/"
-                />
-  </url>
-  
-  <url>
     <loc>/pl/contact/</loc>
     <xhtml:link
                 rel="alternate"
