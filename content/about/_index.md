@@ -3,26 +3,10 @@ date: "2020-01-24"
 title: About Me
 ---
 
-I am a current Ph.D. candidate in the Quantitative Methods Program at the University of Minnesota- Twin Cities. My advisor is Professor Nidhi Kohli. 
+I am a current Ph.D. candidate in the [Quantitative Methods Program] (https://www.cehd.umn.edu/edpsych/programs/qme/) at the University of Minnesota- Twin Cities. My advisors are Professors [Nidhi Kohli] (https://www.cehd.umn.edu/edpsych/people/nkohli/) and [Seungwon Chung] (https://www.cehd.umn.edu/edpsych/people/swchung/). 
 
-It makes use of a variety of open source projects including:
+My main research currently focuses on model fit for intrinsically nonlinear mixed-effects models, which working primarily with repeated measures data (growth models). In addition, I am a research assistant on a project introducing multivariate nonlinear mixed-effects models with crossed random effects to an educational and psycological researach context. This project works with both cross-secitonal and longitudinal datasets. 
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
 
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+## Personal Life

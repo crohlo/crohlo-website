@@ -1,4 +1,4 @@
-baseurl                 = "https://example.com/"
+baseurl                 = "https://corissa-rohloff.me/"
 DefaultContentLanguage  = "en"
 title                   = "Corissa Rohloff"
 theme = "hugo-future-imperfect-slim"
@@ -8,6 +8,14 @@ disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 
 [params]
   mainSections = ["blog", "post"]
@@ -38,7 +46,8 @@ disableLanguages        = [""]
     # directory favicon.ico, utlize this funtion. It is recommened to use
     # https://realfavicongenerator.net to generate your icons as that is the basis
     # for the theme's naming.
-    favicon             = false
+    favicon             = true
+
     svg                 = true
     faviconVersion      = "1"
     msColor             = "#CBE6ED" # Copy from the https://realfavicongenerator.net
@@ -48,7 +57,7 @@ disableLanguages        = [""]
     # Sets the navbarTitle that appears in the top left of the navigation bar
     navbarTitle         = "Home"
     # Sets navbarTitle to match the section of the website
-    dynamicTitles       = true
+    dynamicTitles       = false
     searchMenu          = true
     shareMenu           = true
     languageMenu        = false
@@ -57,33 +66,33 @@ disableLanguages        = [""]
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "Corissa Rohloff"
-    paragraph             = "Ph.D. Candidate <br/> University of Minnesota <br/> Department of Educational Psychology <br/> Quantitative Methods" # to hyperlink: <a href='http://html5up.net'>HTML5 UP</a>  [the text that will appear is 'HTML5 UP']
+    paragraph             = "Ph.D. Candidate <br/> Quantitative Methods <br/> Department of Educational Psychology <br/> University of Minnesota " # to hyperlink: <a href='http://html5up.net'>HTML5 UP</a>  [the text that will appear is 'HTML5 UP']
     rssIntro              = false
     socialIntro           = true
 
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.
     [params.intro.pic]
-      src                 = "/img/main/corissarohloff-headshot.jpg"
+      src                 = "/img/main/ctr-headshot.jpg"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
-      shape               = "circle"
-      width               = ""
+      shape               = "hexagon"
+      width               = "1000"
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
-    about               = "test"
+    about               = "I am a current Ph.D. in the Quantitative Methods of Education program in the Department of Educational Psychology at the University of Minnesota - Twin Cities."
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    postAmount          = 5
+    postAmount          = 0
     # set to show or to hide categories in the sidebar
-    categories          = true
+    categories          = false
     # Sets Categories to sort by number of posts instead of alphabetical
-    categoriesByCount   = true
+    categoriesByCount   = false
 
   [params.footer]
     # Sets RSS icons to appear on the sidebar with the social media buttons
     rssFooter           = false
     # Sets Social Media icons to appear on the sidebar
-    socialFooter        = true
+    socialFooter        = false
 
   # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
   # due to its ease of use. Feel free to check out both and decide which you would
@@ -131,7 +140,7 @@ disableLanguages        = [""]
     name              = "Research"
     identifier        = "research"
     url               = "/research/"
-    pre               = "<i class='fas fa-sitemap'></i>"
+    pre               = "<i class='fas fa-graduation-cap'></i>"
     weight            = 3
 
   [[menu.main]]
@@ -336,7 +345,7 @@ disableLanguages        = [""]
   wordpress             = ""
   medium                = ""
   # Professional/Business Oriented Communities
-  linkedin              = "example"
+  linkedin              = "corissa-rohloff-7226b9199"
   linkedin_company      = ""
   foursquare            = ""
   xing                  = ""
